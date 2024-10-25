@@ -11,6 +11,7 @@ namespace CifraVernam
             string key = RandomKey(10);
             string vernam = "";
             string text = "Ola Mundo!";
+            string key = RandomKey(text.Length);
 
             for (int i = 0; i < text.Length; i++)
             {
